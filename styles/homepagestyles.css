@@ -1,0 +1,229 @@
+.pagelayout{
+    background-color:black;
+    color: #4e505a;
+    width: 1520px;
+    margin-left: -9px;
+    font-size: 15px;
+}
+.topofpagewrapper{
+    display: flex;
+    justify-self: start;
+    background-color: black;
+    padding: 1px 20px 20px 20px;
+    margin-top: -10px;
+    width: 120px;
+    height:42px ;
+    border-radius: 2px;
+    font-size: large;
+}
+.codepenlogo img{
+   
+    height: 60px;
+    /* width:165px; */
+    /* background-size: 138px 26px;
+    width: 180px;
+    height: 65px;
+    border: 0;
+    outline: 0; */
+    filter: invert(1);
+    
+}
+.links-wrapper>.Explore{
+    background-color: black;
+    color: gold;
+    /* width: 350px; */
+    word-wrap: break-word;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+a:link{
+    color: white;
+    text-decoration: none
+}
+.search{
+    
+    height: 65px;
+    padding: 0 10px;
+    margin-left: -16px;
+    font-size: 29px;
+}
+/* .h1{
+    font-size: 3rem;
+} */
+.links-wrapper{
+    background-color: black;
+    color: white;
+    justify-content: left;
+    text-align: center;
+    column-count: 6;
+    height: unset;
+    width: 1325px;
+}
+.Topbtns{
+    display: flex;
+    /* grid-template-columns: 5fr 5fr 5fr; */
+    flex: 1;
+    font-size: 1.20em;
+    word-spacing: 6px; 
+    padding: 1px 20px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    /* margin-right: 130px;
+    margin-left: 75px; */
+    width: 107px;
+    white-space: nowrap;
+    /* position: relative; */
+    
+}
+.Topbtns a{
+    padding:100px;
+    margin-top: 5px;
+    margin-left: 400px;
+    
+}
+.Topbtns>.create{
+    background-color: #4e505a;
+    color: white;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 25px;
+    height: 19px;
+}
+.Topbtns >.log-in{
+    background-color: #4e505a;
+    color: white;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 25px;
+    height: 19px;
+}
+.Topbtns>.signin{
+    background-color: #4e505a;
+    color: white;
+    padding: 10px;
+    margin-left: 400px;
+    margin-right: 225px;
+    height: 19px;
+    font-size: 20px;
+}
+/* .bottomdivider{
+    height:160px;
+    width: 60px;
+} */
+.middle{
+    background-color: #4e505a;
+    color: honeydew;
+    font-size: 2rem;
+    width: 599px;
+    height: 200px;
+    border-radius: 2px;
+    margin-top: -452px; 
+}
+.codepenprojects{
+    margin-left: 946px;
+    color: white;
+    font: size 15px;
+}
+.codepenprojects a{
+    color: #76DAFF; ;
+}
+.middle>.firstsentence{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.middle>.secondsentence{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #b3b3b3;
+    padding: 0.5rem 0;
+}
+.middlebtns{
+    display: flex;
+   /* grid-template-areas: 'left  right';
+   grid-template-columns: repeat(106, 5fr);
+   grid-template-rows:80px;
+   grid-gap: 150px; */
+ 
+}
+.btnsignup{
+   font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+
+    background-color: #47cf73;
+    color: black;
+    padding: 1px 6px;
+    margin-top: 258px;
+    width: 164px;
+    height: 30px;
+    border-radius: 3px;
+    float: 200px;
+    white-space: nowrap;
+    font-size: 1rem;
+    margin-left: 125px;
+    font-size: 1.5em;
+    text-align: center;
+}
+.btnlearn{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+   background-color: black; 
+   color: white;
+   padding: 1px 6px;
+   margin: 35px;
+   width: 100px;
+   height: 30px;
+   border-radius: 3px;
+   border-spacing: inherit;
+   white-space: nowrap;
+   margin-top: 258px;
+   font-size: 1.25em;
+   margin-left: 128px;
+   text-align: center;
+}
+.bottombtns{
+    width: 600px;
+    border: 1px;
+    flex-grow: 3;
+}
+ .bottombtns>a{
+   
+    color: white;
+    text-align: center;
+    background: #373737;
+    border: 10px solid #4e505a;
+    box-sizing: border-box; 
+     white-space: nowrap;
+    border: 1px solid #676767;
+    padding: 0.5rem 5.68rem;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: -486px;
+    width: 600px;
+    flex-grow: 3;
+}
+
+ .bottombtnsgrid{
+    
+   display: flex;
+   flex-grow: 3;
+   width: 460px;
+   /* min-height: 100vh; */
+   /* position:absolute; */
+   /* padding: 0.5rem 19rem; */
+   /* bottom: 18px;
+    margin-bottom: -486px;
+      */
+}
+
+.codepen-for{
+    padding: 0.5rem 1rem;
+    padding-top: 0.5rem;
+    padding-right: .5rem;
+    padding-bottom: 0.5rem;
+    padding-left: .4rem;
+    color: white;
+    text-align: center;
+    background:#4e505a;
+    border: 1px solid #676767;
+    box-sizing: border-box;
+}
